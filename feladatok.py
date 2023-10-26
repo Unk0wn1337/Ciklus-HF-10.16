@@ -1,7 +1,7 @@
 def elsoFela(szam):
     index: int = 0
     while index < szam:
-        if index % 2 == 1:
+        if index % 3 == 0:
             if index < szam - 1:
                 print(index, end=",")
             else:
